@@ -4,7 +4,7 @@
 # written for another century.
 #
 # You should have received a copy of the LICENSE file with
-# this file. 
+# this file.
 
 cmake_minimum_required(VERSION 3.5)
 
@@ -22,8 +22,8 @@ cable_configure_toolchain(DEFAULT cxx11)
 set(HUNTER_CONFIGURATION_TYPES Release CACHE STRING "Build type of Hunter packages")
 set(HUNTER_JOBS_NUMBER 6 CACHE STRING "Number of parallel builds used by Hunter")
 HunterGate(
-    URL "https://github.com/cpp-pm/hunter/archive/v0.23.289.tar.gz"
-    SHA1 "7d7323704780200a1575fc089d26f8a8a393a1fa"
+    URL "https://github.com/cpp-pm/hunter/archive/v0.25.8.tar.gz"
+    SHA1 "26c79d587883ec910bce168e25f6ac4595f97033"
     LOCAL
 )
 
